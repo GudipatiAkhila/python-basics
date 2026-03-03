@@ -19,3 +19,15 @@ print(sample[::-1]) #output: alihkA si sihT
 
 # we can also convert it into tuple and list
 print(tuple(sample),list(sample))
+
+# split function 
+sample = "Hello, This is Akhila"
+sample_1 = "Hi how are you"
+print(sample_1.split(" "))
+# output : ['Hi', 'how', 'are', 'you']
+print("#".join(sample.split(" "))) #ouput : Hello,#This#is#Akhila
+print("#".join(sample)) 
+#O/P: H#e#l#l#o#,# #T#h#i#s# #i#s# #A#k#h#i#l#a
+
+#IMP  for interview  : concatenation - joining 2 strings 
+print("Akhila is a" + " good girl")
